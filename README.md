@@ -26,6 +26,8 @@ Conditional formatting requirement: I was unsure whether I was supposed to use t
 Looping through worksheets requirement: Although I knew the way to initially tell my code to loop through more than one worksheet, I  had trouble getting it not to loop through the same worksheet over and over again. After asking xpert for help and through a lot of trial and error, I realized that the issue was how I was adding my cell references. I hadn’t realized that I was supposed to add “ws.” In front of all of my cell references and ranges, which resulted in the code continuing to divide by itself and replace its own outputs. Xpert showed me how to add “ws.” to my cell references, and then my code was able to run through the entire workbook smoothly.
 
 Other notes: 
+Github wouldn't allow me to upload the workbook itself where I got my results, so I uploaded all of it in a word document. Please let me know if there is a different way I should have done this.
+
 I don't know if it matters, but in my code, I had named the variable that was supposed to represent the quarterly change as "yearly change", as I had originally misread the instructions. After testing, it all works correctly but I wanted to add that note to avoid any confusion.
 
 Along with that, there is a lot of space between the raw data and the output results; you may have to scroll to the side to see everything.
